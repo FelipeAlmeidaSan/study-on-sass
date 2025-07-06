@@ -1,0 +1,14 @@
+$primary-color: #007bff;
+$font-stack: Helvetica, sans-serif;
+$base-padding: 10px;
+
+body {
+    font-family: $font-stack;
+    padding: $base-padding;
+    background-color: $primary-color;
+}
+
+.header {
+    padding: $base-padding * 2;
+    background-color: lighten($primary-color, 10%);
+}

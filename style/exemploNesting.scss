@@ -1,0 +1,37 @@
+/* O nesting em Sass permite aninhar seletores CSS dentro de outros, 
+criando uma estrutura hierárquica que reflete a relação entre os elementos no HTML. */
+
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+
+    &__logo {
+        width: 150px;
+
+        img {
+            display: block;
+        }
+    }
+
+    &__nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                margin-right: 10px;
+
+                a {
+                    color: #333;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+    }
+}

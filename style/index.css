@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  background: #1e0101;
+  color: beige;
+}
+
+h1 {
+  padding: 20px 80px;
+}
+
+/*# sourceMappingURL=index.css.map */

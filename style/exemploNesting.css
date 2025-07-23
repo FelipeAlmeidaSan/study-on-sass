@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* O nesting em Sass permite aninhar seletores CSS dentro de outros, 
+criando uma estrutura hierárquica que reflete a relação entre os elementos no HTML. */
+.header {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.header__logo {
+  width: 150px;
+}
+.header__logo img {
+  display: block;
+}
+.header__nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header__nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header__nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+.header__nav ul li a:hover {
+  color: #007bff;
+}
+
+section {
+  padding: 40px;
+}/*# sourceMappingURL=exemploNesting.css.map */
